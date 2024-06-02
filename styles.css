@@ -1,0 +1,66 @@
+QTextEdit {
+    border: 2px solid #da0303;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+QTextEdit:hover {
+    border-color: #ff0000;
+    background-color: #fff;
+}
+
+QTextEdit:focus {
+    border-color: #0066ff;
+    background-color: #f0faff;
+}
+
+QTextEdit::placeholder {
+    color: #999; /* Couleur du texte de l'espace réservé */
+}
+
+QTextEdit::hover::placeholder {
+    color: #777; /* Couleur de l'espace réservé au survol */
+}
+
+#send_button {
+    width: 100%;
+    padding: 1em 3em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+    outline: none;
+    margin: 0 auto;
+    font-family: "Rubik", sans-serif;
+    background-color: #8A9Bea;
+    text-align: center;
+    font-weight: bold; /* Ajoute une épaisseur à la police */
+}
+
+#send_button:hover {
+    background-color: #128C9f;
+}
+
+
+#clear_button {
+    width: 100%;
+    padding: 1em 3em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+    outline: none;
+    margin: 0 auto;
+    font-family: "Rubik", sans-serif;
+    background-color: #ff9999;
+    text-align: center;
+    font-weight: bold; /* Ajoute une épaisseur à la police */
+}
+
+#clear_button:hover {
+    background-color: #aa4f1a;
+}
+
